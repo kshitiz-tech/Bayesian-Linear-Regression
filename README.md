@@ -52,9 +52,9 @@ The workflow in the notebook is:
 7. Construct a prior covariance matrix `B` using feature correlations.
 8. Solve for the MAP estimate
 
-\[
+$$
 \theta_{MAP} = (\Phi^T \Phi + \sigma^2 B^{-1})^{-1} \Phi^T y
-\]
+$$
 
 9. Evaluate the model with RMSE and residual plots.
 10. Tune the prior scale `alpha` using validation data.
